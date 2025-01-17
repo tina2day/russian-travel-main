@@ -1,0 +1,12 @@
+.place {
+    display: grid;
+    grid-template-columns: 46.8% 49.2%;
+    column-gap: 4%;
+    grid-template-areas: 
+    "header url"
+    "image text";
+}
+
+.place:not(:last-child) {
+    margin-bottom: 80px;
+}
