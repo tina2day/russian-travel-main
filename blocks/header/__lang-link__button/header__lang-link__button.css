@@ -1,0 +1,7 @@
+.header__lang-link__button {
+    display: none; 
+}
+
+.header__lang-link__button:checked + .header__lang-link__label {
+    text-decoration: underline;
+}
