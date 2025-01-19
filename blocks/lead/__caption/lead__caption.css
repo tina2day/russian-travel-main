@@ -7,3 +7,29 @@
     line-height: 14px;
     letter-spacing: 1.5px;
 }
+
+@media (max-width: 1024px) and (min-width: 924px) {
+    .lead__caption {
+      margin-left: 2.7%;
+    }
+  }
+  
+  @media (max-width: 924px) and (min-width: 824px) {
+    .lead__caption {
+      margin-left: 2%;
+    }
+  }
+  
+  @media (max-width: 824px) and (min-width: 768px) {
+    .lead__caption {
+      margin: 0 auto 0;
+      width: 720px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .lead__caption {
+      margin: 0 auto 0;
+      width: 93.75%;
+    }
+  }

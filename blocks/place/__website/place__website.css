@@ -5,3 +5,9 @@
     justify-content: end;
     margin: 0 0 48px;
 }
+
+@media (max-width: 320px) {
+    .place__website {
+        margin: 0 3.75% 32px;
+    }
+}

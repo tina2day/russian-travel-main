@@ -5,3 +5,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .footer {
+        margin: calc(42.6vw - 250px + 92px) auto 0;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 321px) {
+    .footer {
+        flex-direction: column;
+        margin: calc(45.6vw - 31vw + 64px) auto 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+        margin: calc(49.6vw - 42vw + 64px) auto 0;
+    }
+}

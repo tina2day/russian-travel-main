@@ -2,3 +2,9 @@
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 719px) {
+    .cover__link {
+        width: 90%;
+    }
+}

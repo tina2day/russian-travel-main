@@ -4,3 +4,66 @@
    margin-top: 92px;
    margin-left: 11.6%;
  }
+ 
+ @media (min-width: 1280px) {
+  .intro {
+    margin-left: 11.6%;
+    width: 54%;
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 1200px) {
+  .intro {
+    margin-left: 10%;
+    width: 690px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1124px) {
+  .intro {
+    margin-left: 7.5%;
+    width: 690px;
+  }
+}
+
+@media (max-width: 1124px) and (min-width: 1024px) {
+  .intro {
+    margin-left: 4.7%;
+    width: 690px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 924px) {
+  .intro {
+    margin-left: 2.7%;
+    width: 700px;
+  }
+}
+
+@media (max-width: 924px) and (min-width: 824px) {
+  .intro {
+    margin-left: 2%;
+    width: 710px;
+  }
+}
+
+@media (max-width: 824px) and (min-width: 768px) {
+  .intro {
+    margin: 88px auto 0;
+    width: 720px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 445px){
+  .intro {
+    margin: 88px auto 0;
+    width: 93.75%;
+  }
+}
+
+@media (max-width: 445px){
+  .intro {
+    margin: 20% auto 0;
+    width: 93.75%;
+  }
+}

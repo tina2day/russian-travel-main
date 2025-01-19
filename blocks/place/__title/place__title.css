@@ -5,3 +5,46 @@
     margin: 0 0 48px;
     grid-area: header;
 }
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .place__title {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 924px) {
+    .place__title {
+        font-size: 62px;
+    }
+}
+
+@media (max-width: 923px) and (min-width: 824px) {
+    .place__title {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 823px) and (min-width: 724px) {
+    .place__title {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 723px) and (min-width: 769px) {
+    .place__title {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 321px) {
+    .place__title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__title {
+        font-size: 10vw;
+        margin: 0 3.75% 32px;
+    }
+}

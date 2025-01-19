@@ -2,3 +2,24 @@
     margin: 92px auto 0;
     width: 92.5%;
 }
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .cover {
+        margin: 90px auto 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 321px) {
+    .cover {
+        margin: 80px auto 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin: 66px auto 0;
+        width: 100%;
+    }
+}

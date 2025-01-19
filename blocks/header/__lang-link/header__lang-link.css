@@ -2,7 +2,26 @@
     color: white;
     cursor: pointer;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 117%;
     font-weight: 400;
     padding-top: 100%;
 }
+
+@media (min-width: 1280px) {
+    .header__lang-link {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 428px) {
+    .header__lang-link {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 427px) {
+    .header__lang-link {
+        font-size: 5.625vw;
+    }
+}
+

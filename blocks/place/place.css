@@ -10,3 +10,24 @@
 .place:not(:last-child) {
     margin-bottom: 80px;
 }
+
+@media (max-width: 768px) and (min-width: 531px) {
+    .place:not(:last-child) {
+        margin-bottom: 73px;
+    }
+}
+
+@media (max-width: 530px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "header"
+        "url"
+        "image"
+        "text";
+    }
+
+    .place:not(:last-child) {
+        margin-bottom: 15vw;
+    }
+}

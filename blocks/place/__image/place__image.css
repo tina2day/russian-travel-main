@@ -3,3 +3,33 @@
     height: 36vw;
     grid-area: image;
 }
+
+@media (min-width: 1280px) {
+    .place__image {
+        height: calc(76.8vw*0.468);
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px) {
+    .place__image {
+        height: calc(90.6vw*0.468);
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 530px) {
+    .place__image {
+        height: calc(93.8vw*0.468);
+    }
+}
+
+@media (max-width: 530px) and (min-width: 321px) {
+    .place__image {
+        height: 93.8vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__image {
+        height: 100vw;
+    }
+}

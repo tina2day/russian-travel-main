@@ -4,6 +4,14 @@
     font-weight: 900;
     font-size: 4.5em;
     line-height: 106%;
+    letter-spacing: normal;
     margin: auto;
     text-align: center;
+}
+
+@media (max-width: 719px) {
+    .cover__title {
+        font-size: 10vw;
+        width: 90%;
+    }
 }
